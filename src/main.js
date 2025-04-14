@@ -107,7 +107,7 @@ ScrollTrigger.create({
 ScrollTrigger.create({
   trigger: ".section05_img1",
   start: "-300px center",  // 스크롤 시작 위치
-  end: "100px center",  // 끝 위치
+  end: "200px center",  // 끝 위치
   // markers:true,
   animation: gsap.to('.section05_img1',{width:'19vw'}),
   scrub: true,
@@ -117,7 +117,7 @@ ScrollTrigger.create({
 ScrollTrigger.create({
   trigger: ".section05_img2",
   start: "-100px center",  // 스크롤 시작 위치
-  end: "300px center",  // 끝 위치
+  end: "400px center",  // 끝 위치
   // markers:true,
   animation: gsap.to('.section05_img2',{width:'19vw'}),
   scrub: true,
@@ -127,7 +127,7 @@ ScrollTrigger.create({
 ScrollTrigger.create({
   trigger: ".section05_img3",
   start: "-200 center",  // 스크롤 시작 위치
-  end: "200px center",  // 끝 위치
+  end: "300px center",  // 끝 위치
   // markers:true,
   animation: gsap.to('.section05_img3',{width:'19vw'}),
   scrub: true,
@@ -273,7 +273,7 @@ ScrollTrigger.create({
   trigger: ".section08",
   start: "3200px center", // 스크롤 시작 위치
   end: "3400px center", // 끝 위치
-  markers:true,
+  // markers:true,
   animation: section08_text02,
   scrub: 6,
 });

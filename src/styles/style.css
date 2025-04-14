@@ -1,25 +1,8 @@
-/* img{
+img{
     width: 100%;
   }
-   */
-
-
-  body {
-    overflow: hidden;
-    border-style: none;
-  }
-
-
-  
-  .bg_full img {
-    position: relative;
-    width: 100%;  /* 부모 요소 너비에 맞게 이미지 크기 조정 */
-    height: 100%; /* 부모 요소 높이에 맞게 이미지 크기 조정 */
-
-  }
   
 
-  
 
   @keyframes dongdong {
     from{
@@ -31,6 +14,18 @@
 }
 
 
+
+
+  body {
+    overflow: hidden;
+    /* border-style: none; */
+  }
+
+
+
+  
+
+  
   .ps_product{
     position: absolute;
     left: 50%;
@@ -41,15 +36,24 @@
   
     img{
       width: 100%;  /* 부모 요소 너비에 맞게 이미지 크기 조정 */
-      height: auto; /* 부모 요소 높이에 맞게 이미지 크기 조정 */
     }
   }
 
 
 
   .section01{
-    position: relative;
+    height: 100%;
+    background-color: black;
   }
+
+  .section01_container .bg_full {
+    position: relative;
+  
+    img {
+      width: 100%;
+    }
+  }
+
 
   .section01_window01{
     position: absolute;
@@ -95,6 +99,7 @@
 
   .section02{
     position: relative;
+    height: 100%;
   }
 
 .section02_discovery{
@@ -110,6 +115,7 @@
 
 .section03{
   position: relative;
+  height: 100%;
 }
 
 .section03_folder01{
@@ -215,6 +221,7 @@
 
 .section05{
   position: relative;
+  height: 100%;
 }
 
 
@@ -276,6 +283,7 @@
 
 .section06{
   position: relative;
+  height: 100%;
 }
 
 .section06_window01{
@@ -301,6 +309,7 @@
 
 .section07{
   position: relative;
+  height: 100%;
 }
 
 .section07_pad01{
@@ -347,6 +356,7 @@
 
 .section08{
   position: relative;
+  height: 100%;
 }
 
 .section08_text01{
