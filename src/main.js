@@ -241,26 +241,26 @@ const section08_text01 = gsap.timeline();
 section08_text01.from(".section08_text01", { stagger: 0.1, opacity: 0 });
 
 ScrollTrigger.create({
-  trigger: ".section08",
+  trigger: ".bg_full_1",
   start: "top top",
-  end: "200px center",
+  end: "500px center",
   // markers:true,
   animation: section08_text01,
-  scrub: 6,
+  scrub: 3,
 });
 
 
 
 //연달아 올라오는 6줄
 ScrollTrigger.create({
-  trigger: ".section08",
-  start: "1400px center",
-  end: "1800px center",
+  trigger: ".bg_full_2",
+  start: "top center",
+  end: "400px center",
   // markers:true,
   animation: gsap.from(".line6", { y: 30, opacity: 0, stagger: 0.1 }),
   // pinSpacing:false,
   // pin: true,
-  scrub: true,
+  scrub: 1,
 });
 
 
@@ -270,9 +270,9 @@ const section08_text02 = gsap.timeline();
 section08_text02.from(".section08_text02", { stagger: 0.1, opacity: 0 });
 
 ScrollTrigger.create({
-  trigger: ".section08",
-  start: "3200px center",
-  end: "3400px center",
+  trigger: ".bg_full_3",
+  start: "200px center",
+  end: "500px center",
   // markers:true,
   animation: section08_text02,
   scrub: 6,
